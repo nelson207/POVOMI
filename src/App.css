@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  overflow: hidden;
+}
+
+.dashboard {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  overflow: auto;
+}
+
+.dashboard-panel {
+  background: white;
+
+  border-radius: 20px;
+
+  padding: 24px;
+
+  /* overflow: auto;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); */
+}
+
+.panel-header h2 {
+  margin-bottom: 0;
+  font-weight: 800;
+}
+
+.panel-header p {
+  color: #6c757d;
+}
+
+/* Remove Chrome, Safari, Edge arrows */
+.custom-number-input::-webkit-outer-spin-button,
+.custom-number-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove Firefox arrows */
+.custom-number-input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Optional: remove focus outline */
+.custom-number-input:focus {
+  outline: none;
+  box-shadow: none;
+}
