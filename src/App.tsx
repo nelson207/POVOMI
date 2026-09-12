@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 
 import TaxInput from "./components/TaxInput";
-import TaxChart from "./components/TaxChart";
+//import TaxChart from "./components/TaxChart";
 import ExpenseCard from "./components/ExpenseCard";
 import CuriosityPanel from "./components/CuriosityPanel";
 import type { ExpenseItem } from "./types/ExpenseItem";
